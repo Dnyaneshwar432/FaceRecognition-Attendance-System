@@ -1,0 +1,20 @@
+credentials:
+  usernames:
+    admin:
+      email: 'dnyaneshwarkankale8@gmail.com'
+      name: 'Dnyaneshwar Kankale'
+      password: '$2b$12$E6KynjheUfekYhIcvTWI4eF0MhtLgtTSmu8vmH5WexfGWwOCSzR7W' # hashed password of 'abc'
+      # to generate hashed password use below code.
+      # hashed_passwords = stauth.Hasher(['abc').generate()
+    Dnyanesh123:
+      email: 'dnyaneshwarkankale8@gmail.com'
+      name: 'Dnyaneshwar Kankale'
+      password: 'Pass@123'
+
+cookie:
+  expiry_days: 30
+  key: 'Login_as_Admin' # Must be string
+  name: 'Dnyaneshwar_Kankale_Admin'
+pre-authorized:
+  emails:
+  - 'dnyaneshwarkankale8@gmail.com'
